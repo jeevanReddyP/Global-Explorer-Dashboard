@@ -1,41 +1,78 @@
-# 🌍 Global Explorer
+<h1 align="center">🌍 Global Explorer</h1> <p align="center">A React-based dashboard to explore countries, weather updates, and top news from around the world.</p>
+🔗 Live Demo
 
-A simple React app to explore countries, check weather, and see news updates.
+Website: https://globalexplorerdashboard.netlify.app/
 
-## 🚀 Setup
+GitHub Repository: https://github.com/jeevanReddyP/Global-Explorer-Dashboard
 
-1. Clone the project
+🌟 Features
 
-   ```bash
-   git clone <repo-link>
-   cd global-explorer
-   ```
-2. Install dependencies
+View detailed information about all countries
 
-   ```bash
-   npm install
-   ```
-3. Run the project
+Search countries by name
 
-   ```bash
-   npm run dev
-   ```
+Filter by region
 
-## 🌟 Features
+Sort by name or population
 
-* View details of all countries
-* Search and filter by region
-* Sort countries by name or population
-* Add or remove favourites
-* Light and dark mode support
-* See mini weather info for each country
+Add or remove favourites
 
-## 🔗 APIs Used
+Light and dark mode support
 
-* [REST Countries API](https://restcountries.com) – for country data
-* [OpenWeatherMap API](https://openweathermap.org) – for weather details
-* [NewsAPI](https://newsapi.org) – for latest news
+Mini weather widget for every country
 
----
+Clean and responsive UI
 
-Made with  using React and Tailwind CSS.
+🧰 Tech Stack
+
+React
+Tailwind CSS
+JavaScript
+Vite
+
+🔗 APIs Used
+
+REST Countries API (country information)
+
+OpenWeatherMap API (weather data)
+
+NewsAPI (top headlines)
+
+🚀 Setup Instructions
+
+Clone the project
+git clone https://github.com/jeevanReddyP/Global-Explorer-Dashboard.git
+
+cd Global-Explorer-Dashboard
+
+Install dependencies
+npm install
+
+Run the project
+npm run dev
+
+📁 Folder Structure
+
+Global-Explorer-Dashboard/
+public/
+src/
+README.md
+
+📝 Environment Variables
+
+Create a .env file with the following:
+
+VITE_WEATHER_API_KEY = your_weather_api_key
+VITE_NEWS_API_KEY = your_newsapi_key
+
+✔️ Future Improvements
+
+Add map integration
+
+Add full weather details page
+
+Add more sorting and filtering options
+
+Add saved news section
+
+Made with ❤️ using React and Tailwind CSS.
